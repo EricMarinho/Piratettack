@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754daf41c08cc4141b0a3bf70b00ca4a, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  maxHealth: 5
+  damage: 1
+  bulletDamage: 2
+  scoreValue: 1
+  speed: 15
+  reverse: 2
+  rotationSpeed: 1
+  frontalShotReloadTime: 1
+  sideShotReloadTime: 0.7
+  attackRange: 5
+  frontalPoolTag: PlayerFrontalShot
+  sidePoolTag: PlayerSideShot
+  poolTag: Ship
+  deterioratedShipSprite: {fileID: 24471226, guid: 1d6c3345f526b5046a6b6b170c106d4e, type: 3}
+  veryDeterioratedShipSprite: {fileID: -1080127133, guid: 1d6c3345f526b5046a6b6b170c106d4e, type: 3}
+  destroyedShipSprite: {fileID: 1987535866, guid: 1d6c3345f526b5046a6b6b170c106d4e, type: 3}
