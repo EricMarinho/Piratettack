@@ -13,7 +13,9 @@ Follow the below instructions to get started with CSPF source code:
 
 1. [Make sure you have all Requirements](#requirements)
 2. [Download Source Code](#download)
-3. Open Project in Unity and Enjoy!
+3. Create a LootLocker account and follow the documentation.
+4. Open Project in Unity, change the LootLocker API Key: Edit > Project Settings > LootLocker SDK > API Key
+5. Enjoy!
 
 ## Requirements
 
@@ -51,6 +53,8 @@ Also you can also play or download the build version of Piratettack! using one o
 ## Credits
 
 - Game Engine: [Unity](https://unity3d.com/)
+- BaaS: [LootLocker](https://www.lootlocker.com/) 
+- Thanks to Kenney for the free assets.
 - Thanks to all of the game development community for their awesome help.
 
 ## License
