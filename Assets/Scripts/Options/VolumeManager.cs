@@ -8,6 +8,6 @@ public class VolumeManager : MonoBehaviour
     public AudioMixer audioMixer;
     void Start()
     {
-        audioMixer.SetFloat("Volume", PlayerPrefs.GetFloat("volumePref"));
+        audioMixer.SetFloat("volume", Mathf.Log10(PlayerPrefs.GetFloat("volumePref")) * 20);
     }
 }

@@ -17,7 +17,7 @@ public class OptionsHandler : MonoBehaviour
 
     private void Start()
     {
-        volumeSlider.value = PlayerPrefs.GetFloat("volumePref", 0.75f);
+        volumeSlider.value = PlayerPrefs.GetFloat("volumePref", 1f);
     }
 
     private void OnEnable()
@@ -43,12 +43,12 @@ public class OptionsHandler : MonoBehaviour
     public void SetVolume()
     {
         PlayerPrefs.SetFloat(volumePref, volumeSlider.value);
-        audioMixer.SetFloat("Volume", PlayerPrefs.GetFloat(volumePref));
+        audioMixer.SetFloat("volume", Mathf.Log10(PlayerPrefs.GetFloat("volumePref")) * 20);
     }
 
     public void TempChangeVolume()
     {
-        audioMixer.SetFloat("Volume", volumeSlider.value);
+        audioMixer.SetFloat("Volume", Mathf.Log10(volumeSlider.value) * 20);
     }
 
 }
