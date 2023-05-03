@@ -1,6 +1,6 @@
 # Piratettack!
 <img align="right" src="https://img.itch.zone/aW1nLzEwMzQ3ODQ4LnBuZw==/315x250%23c/E%2BYykj.png" width= 200/>
-Piratettack! is a Top Down 2D game with Unity in one week.
+Piratettack! is a Top Down 2D game made with Unity in one week.
 
 It's free and open source. :clap:
 
